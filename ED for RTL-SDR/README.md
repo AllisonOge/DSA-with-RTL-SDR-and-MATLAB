@@ -9,3 +9,4 @@ Open *PUactiveduration.m* file for PU occupancy at one frequency for some second
 
 Other files
 *Visualization.m* - for frequency and spectrogram plot of an FM station
+*noise_estimation_for_25dB.m* - for estimating the noise floor by considering the noise only samples and ploting the distribution. A fitted distribution is then used to compute the mean.
