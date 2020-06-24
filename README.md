@@ -1,1 +1,2 @@
 # DSA-with-RTL-SDR-and-MATLAB
+A simple implementation of DSA on an FM receiver in MATLAB using RTL-SDR. It use a energy detection in spectrum sensing for a minimum SNR of -10dB and a channel selection algorithm with exponential primary user OFF time model for the MAC protocol spectrum management and mmobility. The FM receiver is implemented with simple coherent demodulation method (the delay discrimination). Codes and Result are available
