@@ -27,7 +27,7 @@ audio_rate          = 48e3;         % sample rate of audio player
 
 %system object
 % audio save
-audio_save = dsp.AudioFileWriter('result/audio_file_DSA_test.wav','SampleRate', audio_rate);
+audio_save = dsp.AudioFileWriter('audio_file_DSA_test.wav','SampleRate', audio_rate);
 
 % calculations
 freq_range = start_freq:freq_bw:start_freq+5*freq_bw;     % create 5 channels
